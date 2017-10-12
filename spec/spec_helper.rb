@@ -3,7 +3,6 @@ require_relative '../config/environment.rb'
 require 'rack/test'
 
 RSpec.configure do |config|
-  config.include Capybara::DSL
   config.include Rack::Test::Methods
   config.order = 'default'
 end
